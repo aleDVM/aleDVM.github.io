@@ -1,0 +1,143 @@
+body {
+  background-image: url('congruent_pentagon.png');
+  margin-bottom: 5vh;
+  color: #256853;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav.navbar {
+  background-color: #256853;
+  color: #c9e5dc;
+}
+
+.navbar-brand img {
+  max-width: 100%;
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+
+.jumbotron {
+  margin-top: 60px;
+}
+
+.uno {
+  position: relative;
+  width: 100%;
+  height: 251px;
+}
+
+.dos {
+  position: absolute;
+  left: -15px;
+  height: 251px;
+  z-index: 1;
+}
+
+.tres {
+  position: absolute;
+  top: 0px;
+  right: 8px;
+  height: 251px;
+  max-width: 100%;
+}
+
+.nosotros {
+  margin: 100px 0px 100px 30px;
+  font-family:  Arial, Helvetica, Verdana, sans-serif;
+  line-height: 24px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.nosotros h4 {
+  margin-top: 30px;
+}
+
+.noticia {
+  margin-top: 50px;
+}
+
+.noticias {
+  padding: 3%;
+  height: 360px;
+  overflow: hidden;
+  margin-bottom: 6%;
+}
+
+.noticias p {
+  font-size: 9px;
+}
+
+.note {
+  margin-top: 120px;
+}
+
+.thumbnail img {
+  max-width: 100%;
+}
+
+.thumbnail img#no {
+  height: 150px;
+  width: 200px;
+}
+
+.izquier{
+  float: right;
+}
+.parrnoti{
+  font-size: 1.2rem;
+
+}
+
+.no{
+  text-align: center;
+  margin-bottom: 15vh;
+}
+
+.btn{
+  text-align: center;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 10px;
+  background-color: #256853;
+  color: white;
+
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100vw;
+}
+
+@media (max-width: 1000px) {
+  .jumbotron img {
+    max-width: 100%;
+    float: left;
+    overflow: auto;
+  }
+  .uno {
+    position: relative;
+    width: 100%;
+    height: 100px;
+
+  }
+  .dos {
+    position: relative;
+    left: -5vw;
+    height: 100px;
+    width: 45vw;
+
+  }
+  .tres {
+    position: relative;
+    top: 0px;
+    right: 8vw;
+    height: 100px;
+    width: auto;
+    max-width: 100%;
+  }
+}
